@@ -1,8 +1,20 @@
-// Gsap
-gsap.from('.nav', { y: -50, duration: 1 })
-gsap.from('.header__subtitle', { opacity: 0, duration: 1.25 })
-gsap.from('.header__title', { opacity: 0, duration: 1.5 })
-// Gsap
+// GSAP
+gsap.from('.nav', {
+  y: -50,
+  duration: 1,
+  ease: 'bounce',
+})
+gsap.from('.header__subtitle', {
+  opacity: 0,
+  duration: 1.25,
+  delay: .25,
+})
+gsap.from('.header__title', {
+  opacity: 0,
+  duration: 1.25,
+  delay: .25,
+})
+// GSAP
 
 // Slider
 const reviewsSwiper = new Swiper('.reviews__slides', {

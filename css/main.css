@@ -476,10 +476,6 @@ img {
   position: relative;
 }
 
-.cafe__swiper {
-  border: 1px sol;
-}
-
 .cafe-types-btn__prev,
 .cafe-types-btn__next {
   color: var(--bg);
